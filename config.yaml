@@ -1,0 +1,11 @@
+partitions:
+    default: "XiaoYueHe"
+    bwa_mem: "XiaoYueHe"
+INDEX_DIR: "index"
+GATK_PATH: "/work/apps/tools/gatk/gatk-4.4.0.0/gatk"
+GENOME: "GCF_000002315.6_GRCg6a_genomic.fna"
+FINAL_OUTPUT_VCF: "final/combine_SNP.filtered.vcf"
+merge_intervals: true
+chromosomes:
+  - 30
+  - 32
